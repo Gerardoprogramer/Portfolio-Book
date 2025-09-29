@@ -10,30 +10,21 @@ export interface experience {
 
 export const experiences: experience[] = [
     {
-        period: "2023–2025",
-        title: "Programador Senior",
-        company: "Empresa Innovadora X",
-        location: "Ciudad, País",
+        period: "Aug-Dec / 2024",
+        title: "Desarrollador BackEnd",
+        company: "FUNREAD",
+        location: "remoto",
         description:
-            "Lideré el desarrollo de aplicaciones web escalables utilizando React y Node.js. Implementé arquitecturas de microservicios que mejoraron el rendimiento en un 40%. Mi historia aquí comenzó con desafíos complejos y culminó en soluciones elegantes que transformaron la experiencia del usuario.",
-        technologies: ["React", "Node.js", "TypeScript", "AWS"],
+            "Desarrollé endpoints con Python y Django, mejorando la escalabilidad y eficiencia de la plataforma. Implementé mecánicas de gamificación que potenciaron la experiencia del usuario y el aprendizaje interactivo. Formé parte de un equipo Scrum, contribuyendo al desarrollo de nuevas funcionalidades y a la entrega continua de valor en cada Sprint.",
+        technologies: ["Python", "Django", "Mysql", "Git"],
     },
     {
-        period: "2021–2023",
+        period: "Feb-May / 2025",
         title: "Desarrollador Fullstack",
-        company: "Freelance",
+        company: "4thewords",
         location: "Remoto",
         description:
-            "Emprendí mi propio camino como desarrollador independiente, creando soluciones personalizadas para diversos clientes. Cada proyecto fue una nueva aventura: desde e-commerce hasta aplicaciones móviles, escribí código que dio vida a ideas y sueños empresariales.",
-        technologies: ["Vue.js", "Python", "PostgreSQL", "Docker"],
-    },
-    {
-        period: "2019–2021",
-        title: "Desarrollador Junior",
-        company: "StartUp Tecnológica",
-        location: "Ciudad, País",
-        description:
-            "Mis primeros pasos en el mundo profesional del desarrollo. Aquí aprendí que cada bug era una lección, cada feature una oportunidad de crecimiento. Contribuí al desarrollo de una plataforma SaaS que alcanzó más de 10,000 usuarios activos.",
-        technologies: ["JavaScript", "PHP", "MySQL", "Git"],
+            "Trabajé en un juego gamificado para escritores, participando en el desarrollo de un componente de pestañas reutilizable en Vue.js, migrando endpoints del backend de PHP a Python, y corrigiendo bugs tanto en frontend como backend. Además, colaboré en el mantenimiento y mejoras continuas de la plataforma, asegurando una experiencia más estable y fluida para los usuarios.",
+        technologies: ["Vue.js", "JavaScript", "PHP", "Tailwind CSS", "Python", "Mysql", "Git", "Figma"],
     },
 ]
