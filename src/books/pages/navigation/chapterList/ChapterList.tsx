@@ -1,4 +1,4 @@
-import { type chapter } from "@/books/data/chapters/chapter.interface"
+import { type chapter } from "@/books/data/chapters/chapters.data"
 
 type Props = {
     chapters: chapter[]

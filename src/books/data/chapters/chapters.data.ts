@@ -1,4 +1,9 @@
-import { type chapter } from "./chapter.interface"
+export interface chapter{
+    id: string,
+    title: string,
+    subtitle?: string,
+    href: string,
+}
 
 export const chapters: chapter[] = [
   { id: "portada", title: "Portada", href: "#portada" },

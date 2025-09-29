@@ -2,7 +2,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { BookOpen, Menu, X } from "lucide-react"
 
-import { chapters } from "@/books/data/chapters/chapters"
+import { chapters } from "@/books/data/chapters/chapters.data"
 import { ChapterList } from "./chapterList/ChapterList"
 import { useScrollSpy } from "@/books/hooks/useScrollSpy"
 
