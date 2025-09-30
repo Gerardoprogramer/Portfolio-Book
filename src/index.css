@@ -191,12 +191,13 @@
 
 .chapter-marker {
   position: relative;
+  
 }
 
 .chapter-marker::before {
   content: "📖";
-  position: absolute;
-  left: -2rem;
+  display: inline-block;
+  margin-right: 0.5rem;
   color: oklch(0.65 0.15 160);
 }
 

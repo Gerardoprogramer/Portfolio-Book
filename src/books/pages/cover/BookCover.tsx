@@ -18,7 +18,7 @@ export function BookCover() {
 
       <div className="text-center z-10 max-w-4xl mx-auto px-6">
         {/* Book title effect */}
-        <BookTitle title="Gerardo Martínez Monge" subtitle=" Desarrollador Fullstack | Programador TI" />
+        <BookTitle title="Gerardo Martínez" subtitle={[" Desarrollador Fullstack", "Programador TI"]} />
 
         {/* Bookmark-style button */}
         <ScrollButton title="Comenzar Lectura" onClick={scrollToPrologo} />

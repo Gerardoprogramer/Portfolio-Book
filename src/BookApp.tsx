@@ -4,6 +4,9 @@ import { BookCover } from '@/books/pages/cover/BookCover'
 import { BookPrologue } from '@/books/pages/Prologue/BookPrologue'
 import { BookExperiences } from '@/books/pages/experiences/BookExperiences'
 import {BookProjects} from '@/books/pages/projects/BookProjects'
+import {BookSkills} from '@/books/pages/skills/BookSkills'
+import {BookContact} from '@/books/pages/epilogue/BookContact'
+
 export const BookApp = () => {
     return (
         <div className="min-h-screen bg-background">
@@ -14,6 +17,8 @@ export const BookApp = () => {
                 <BookPrologue />
                 <BookExperiences />
                 <BookProjects/>
+                <BookSkills/>
+                <BookContact/>
             </main>
         </div>
     )
