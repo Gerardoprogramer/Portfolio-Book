@@ -11,6 +11,7 @@ import {
   Zap,
   Globe,
   Box,
+  Key,
 } from "lucide-react"
 
 
@@ -33,9 +34,11 @@ export const skillCategories: Props[] = [
       { name: "React", icon: Code2 },
       { name: "Vue.js", icon: Layers },
       { name: "TypeScript", icon: Code2 },
-      { name: "Next.js", icon: Zap },
+      { name: "JavaScript", icon: Zap },
       { name: "Tailwind CSS", icon: Palette },
-      { name: "HTML5/CSS3", icon: Globe },
+      { name: "HTML5", icon: Globe },
+      { name: "CSS3", icon: Palette },
+      { name: "JWT", icon: Key },
     ],
   },
   {
@@ -44,10 +47,15 @@ export const skillCategories: Props[] = [
     skills: [
       { name: "Node.js", icon: Server },
       { name: "Python", icon: Code2 },
+      { name: "Java", icon: Layers },
+      { name: "C#", icon: Code2 },
       { name: "PostgreSQL", icon: Database },
       { name: "MongoDB", icon: Database },
-      { name: "GraphQL", icon: Layers },
+      { name: "MySQL", icon: Database },
+      { name: "SQL Server", icon: Database },
+      { name: "Redis", icon: Database },
       { name: "REST APIs", icon: Globe },
+      // { name: "GraphQL", icon: Globe },
     ],
   },
   {
@@ -55,20 +63,18 @@ export const skillCategories: Props[] = [
     icon: Wrench,
     skills: [
       { name: "Docker", icon: Box },
-      { name: "AWS", icon: Cloud },
       { name: "Git", icon: GitBranch },
       { name: "CI/CD", icon: Zap },
-      { name: "Linux", icon: Server },
-      { name: "Vercel", icon: Cloud },
+      { name: "WebSockets", icon: Cloud },
     ],
   },
   {
     title: "Mobile & Otros",
     icon: Smartphone,
     skills: [
-      { name: "React Native", icon: Smartphone },
-      { name: "Flutter", icon: Smartphone },
-      { name: "Firebase", icon: Database },
+      { name: "APIs REST", icon: Globe },
+      { name: "Vite", icon: Zap },
+      { name: "Testing", icon: Database },
       { name: "Figma", icon: Palette },
       { name: "Agile/Scrum", icon: Layers },
       { name: "UI/UX Design", icon: Palette },
