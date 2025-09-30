@@ -6,6 +6,8 @@ interface Props {
     project: project
 }
 export function ProjectCard({ project }: Props) {
+
+
     return (
         <div
             className="book-page p-6 rounded-lg hover:shadow-2xl transition-all duration-300 group hover:-translate-y-2"
@@ -68,12 +70,16 @@ export function ProjectCard({ project }: Props) {
                             Código
                         </a>
                     </Button>
-                    <Button size="sm" className="flex-1 bg-emerald-500 hover:bg-emerald-400 text-zinc-950" asChild>
-                        <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                            <Eye className="h-4 w-4 mr-1" />
-                            Demo
-                        </a>
-                    </Button>
+                    
+                    {project.demo && (
+                        <Button size="sm" className="flex-1 bg-emerald-500 hover:bg-emerald-400 text-zinc-950" asChild>
+                            <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                                <Eye className="h-4 w-4 mr-1" />
+                                Demo
+                            </a>
+                        </Button>
+                    )}
+
                 </div>
             </div>
         </div>

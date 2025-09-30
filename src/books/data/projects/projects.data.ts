@@ -6,46 +6,53 @@ export interface project {
     solution: string,
     technologies: string[],
     github: string,
-    demo: string,
+    demo?: string,
     image: string,
 }
 
-export const projects: project [] = [
+export const projects: project[] = [
     {
-        title: "E-Commerce Moderno",
-        subtitle: "Una historia de comercio digital",
+        title: "Sitio Web para Restaurante",
+        subtitle: "Plataforma de pedidos y reservas con ASP.NET y C#",
         description:
-            "Desarrollé una plataforma de comercio electrónico completa con React y Node.js. La historia comenzó con un cliente que soñaba con llevar su negocio al mundo digital, y culminó con una solución que incrementó sus ventas en un 200%.",
-        problem: "Necesidad de una tienda online escalable y moderna",
-        solution: "Arquitectura de microservicios con React, Node.js y PostgreSQL",
-        technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
-        github: "#",
-        demo: "#",
-        image: "/modern-ecommerce-website.png",
+            "Desarrollé una plataforma web completa para un restaurante usando ASP.NET Core y C#. Incluye catálogo de menú dinámico, sistema de pedidos en línea, gestión de mesas y reservas, panel administrativo para actualizar productos, y notificaciones en tiempo real para el personal de cocina.",
+        problem: "Necesidad de digitalizar pedidos, reservas y la gestión del menú para mejorar la experiencia del cliente y la eficiencia operativa",
+        solution: "Aplicación web con ASP.NET Core (MVC/Razor), API RESTful, Entity Framework Core para acceso a datos y SignalR para actualizaciones en tiempo real; panel administrativo para control total del restaurante",
+        technologies: [
+            "ASP.NET Core",
+            "C#",
+            "Entity Framework Core",
+            "SQL Server",
+            "Razor Pages / MVC",
+            "SignalR (WebSockets)",
+            "Bootstrap",
+            "Azure"
+        ],
+        github: "https://github.com/Gerardoprogramer/Restaurante",
+        image: "/Restaurant.png"
     },
     {
-        title: "App de Gestión de Tareas",
-        subtitle: "Organizando el caos digital",
+        title: "Gifs App",
+        subtitle: "Explorando gifs con la API de Giphy",
         description:
-            "Una aplicación móvil que nació de la necesidad personal de organizar mejor mi tiempo. Se convirtió en una herramienta que ayuda a miles de usuarios a gestionar sus proyectos de manera más eficiente.",
-        problem: "Falta de herramientas intuitivas para gestión de proyectos",
-        solution: "App móvil con sincronización en tiempo real y UI intuitiva",
-        technologies: ["React Native", "Firebase", "TypeScript", "Redux"],
-        github: "#",
-        demo: "#",
-        image: "/task-management-app.png",
+            "Desarrollé una aplicación web que permite buscar y visualizar gifs en tiempo real consumiendo la API de Giphy. Incluye pruebas unitarias para garantizar la calidad del código y fue construida con un enfoque en rendimiento y simplicidad.",
+        problem: "Necesidad de una forma rápida y divertida de buscar y mostrar gifs animados",
+        solution: "Aplicación web en React con Vite para un entorno de desarrollo ágil, pruebas unitarias con Vitest y consumo de la API de Giphy",
+        technologies: ["React", "Vite", "Vitest", "API de Giphy", "Tailwind", "TypeScript"],
+        github: "https://github.com/Gerardoprogramer/gifs-app",
+        demo: "https://giphygmm.netlify.app/",
+        image: "/giphyApp.png"
     },
     {
-        title: "Dashboard Analítico",
-        subtitle: "Convirtiendo datos en historias",
+        title: "Hooks App",
+        subtitle: "Explorando el poder de los React Hooks",
         description:
-            "Un panel de control que transforma datos complejos en visualizaciones comprensibles. Este proyecto me enseñó que los datos tienen historias que contar, solo necesitan el narrador correcto.",
-        problem: "Datos dispersos sin visualización clara",
-        solution: "Dashboard interactivo con gráficos en tiempo real",
-        technologies: ["Vue.js", "D3.js", "Python", "FastAPI", "MongoDB"],
-        github: "#",
-        demo: "#",
-        image: "/analytics-dashboard.png",
+            "Construí una aplicación web educativa con ejemplos prácticos de los principales hooks de React, incluyendo también custom hooks. El objetivo fue practicar, reforzar conceptos y tener una guía interactiva de referencia sobre su funcionamiento.",
+        problem: "Necesidad de practicar y recordar de forma organizada el uso de hooks en proyectos React",
+        solution: "Aplicación web en React con ejemplos interactivos de cada hook, incluyendo hooks personalizados para casos comunes",
+        technologies: ["React", "Vite", "TypeScript", "Tailwind CSS", "Custom Hooks"],
+        github: "https://github.com/Gerardoprogramer/hooks_app",
+        image: "/Hooks.png"
     },
     {
         title: "3",
@@ -59,28 +66,5 @@ export const projects: project [] = [
         demo: "#",
         image: "/modern-ecommerce-website.png",
     },
-    {
-        title: "2",
-        subtitle: "Organizando el caos digital",
-        description:
-            "Una aplicación móvil que nació de la necesidad personal de organizar mejor mi tiempo. Se convirtió en una herramienta que ayuda a miles de usuarios a gestionar sus proyectos de manera más eficiente.",
-        problem: "Falta de herramientas intuitivas para gestión de proyectos",
-        solution: "App móvil con sincronización en tiempo real y UI intuitiva",
-        technologies: ["React Native", "Firebase", "TypeScript", "Redux"],
-        github: "#",
-        demo: "#",
-        image: "/task-management-app.png",
-    },
-    {
-        title: "1",
-        subtitle: "Convirtiendo datos en historias",
-        description:
-            "Un panel de control que transforma datos complejos en visualizaciones comprensibles. Este proyecto me enseñó que los datos tienen historias que contar, solo necesitan el narrador correcto.",
-        problem: "Datos dispersos sin visualización clara",
-        solution: "Dashboard interactivo con gráficos en tiempo real",
-        technologies: ["Vue.js", "D3.js", "Python", "FastAPI", "MongoDB"],
-        github: "#",
-        demo: "#",
-        image: "/analytics-dashboard.png",
-    },
+
 ]
