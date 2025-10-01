@@ -54,17 +54,18 @@ export const projects: project[] = [
         github: "https://github.com/Gerardoprogramer/hooks_app",
         image: "/Hooks.png"
     },
-    {
-        title: "3",
-        subtitle: "Una historia de comercio digital",
-        description:
-            "Desarrollé una plataforma de comercio electrónico completa con React y Node.js. La historia comenzó con un cliente que soñaba con llevar su negocio al mundo digital, y culminó con una solución que incrementó sus ventas en un 200%.",
-        problem: "Necesidad de una tienda online escalable y moderna",
-        solution: "Arquitectura de microservicios con React, Node.js y PostgreSQL",
-        technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
-        github: "#",
-        demo: "#",
-        image: "/modern-ecommerce-website.png",
-    },
-
+{
+  title: "Portfolio Web",
+  subtitle: "Un libro digital sobre mi camino como desarrollador",
+  description:
+    "Creé un portfolio web con la estética y narrativa de un libro, donde cada sección funciona como un capítulo que cuenta mi historia como programador. El diseño busca transmitir mi pasión por la lectura y, al mismo tiempo, mostrar mis proyectos de una manera creativa y profesional.",
+  problem:
+    "Necesitaba una forma única y personal de presentarme al mundo laboral, más allá de un listado tradicional de proyectos.",
+  solution:
+    "Desarrollé un portfolio en formato de libro digital utilizando React, Vite y TypeScript, con Tailwind CSS para el estilo. Cada capítulo está pensado como una narrativa visual y técnica que permite recorrer mis proyectos de manera cronológica y temática.",
+  technologies: ["React", "Vite", "TypeScript", "Tailwind CSS"],
+  github: "https://github.com/Gerardoprogramer/Portfolio-Book",
+  demo: "https://mybookportfolio.netlify.app/",
+  image: "/MyPortfolio.png"
+},
 ]
