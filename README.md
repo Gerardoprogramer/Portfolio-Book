@@ -1,73 +1,34 @@
-# React + TypeScript + Vite
+# 📚 Bookfolio – Un portafolio contado como un libro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> *"Cada proyecto es un capítulo, y cada capítulo cuenta una historia de código."* ✨  
 
-Currently, two official plugins are available:
+Bienvenido a **Bookfolio**, un portafolio personal con temática literaria 📖.  
+No es solo una lista de proyectos, es un **libro interactivo** donde cada creación se presenta como parte de una narrativa digital.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Stack tecnológico
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,typescript,vite,tailwind,vitest,git" />
+</p>
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- ⚛️ **React + TypeScript** → interfaz moderna y segura.  
+- ⚡ **Vite** → desarrollo ultrarrápido.  
+- 🎨 **TailwindCSS** → estilos dinámicos y responsivos.  
+- 🧪 **Vitest** → pruebas ligeras pero potentes.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Características destacadas
+✔️ **Capítulos interactivos** → cada sección funciona como una página de libro.  
+✔️ **Animaciones fluidas** → transiciones que simulan pasar de página.  
+✔️ **Mobile first** → diseñado para brillar en cualquier pantalla.  
+✔️ **Estructura limpia** → lista para escalar con más capítulos (proyectos).  
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🖼️ Demo en vivo
+👉 [Visita Bookfolio aquí](https://mybookportfolio.netlify.app/)  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
